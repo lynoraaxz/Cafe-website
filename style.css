@@ -100,3 +100,15 @@ section.show {
   opacity: 1;
   transform: translateY(0);
 }
+
+@media (min-width: 768px) {
+    .disc h1 {
+      opacity: calc(1) !important;
+    }
+
+    nav h4 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+  }

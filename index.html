@@ -9,26 +9,36 @@
 </head>
 <body>
     <header>
-        <nav class="fixed-top text-light">
-            <div class="container py-2 d-flex align-items-center justify-content-between">
-                <div>
-                    <a href="index.html" class="me-5 fw-bold text-light text-decoration-none navLink">Home</a>
-                    <a href="#Gallery" class="me-5 fw-bold text-light text-decoration-none navLink">Gallery</a>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+            <div class="container py-2 d-flex align-items-center justify-content-between">  
+                
+                <h4 class="fw-bold mb-0 text-light"
+                    style="font-family: Trebuchet MS; letter-spacing: 2px;">
+                    Your Logo
+                </h4>
+
+                <div class="collapse navbar-collapse order-2 order-md-0 justify-content-between w-100" id="navbarContent">    
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-link navLink fw-bold me-md-5 text-light">Home</a>
+                        <a href="#Gallery" class="nav-link navLink fw-bold me-md-5 text-light">Gallery</a>
+                    </div>
+
+                    <div class="navbar-nav">
+                        <a href="#Menu" class="nav-link navLink fw-bold me-md-5 text-light">Menu</a>
+                        <a href="#Contact" class="nav-link navLink fw-bold text-light">Contact</a>
+                    </div>
                 </div>
 
-                <div>
-                    <h4 class="fw-bold" style="font-family: Trebuchet MS; letter-spacing: 2px;">Your Logo</h4>
-                </div>
-
-                <div>
-                    <a href="#Menu" class="me-5 fw-bold text-light text-decoration-none navLink">Menu</a>
-                    <a href="#Contact" class="me-5 fw-bold text-light text-decoration-none navLink">Contact</a>
-                </div>
+                <button class="navbar-toggler order-1 order-md-2 ms-auto" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             </div>
         </nav>
     </header>
 
-    <section id="hero" class="d-flex align-items-center text-light">
+    <section id="hero" class="d-flex align-items-center text-center text-md-start text-light">
         <div class="container">
             <h1 class="display-3 fw-bold">Coffee</h1>
             <p class="lead">Start your day with a perfect cup.</p>
@@ -62,7 +72,7 @@
         <div class="container px-md-5 text-black">
             <div class=" text-center bg-secondary bg-opacity-100 position-relative">
                 <div class="position-absolute bottom-0 end-0">
-                    <h1 class="opacity-100" style="font-size: 5rem;">10% OFF</h1>
+                    <h1 class="opacity-25 text-black" style="font-size: 5rem;">10% OFF</h1>
                 </div>
                 <div class="p-4">
                     <div class="row d-flex justify-content-center align-items-center">
